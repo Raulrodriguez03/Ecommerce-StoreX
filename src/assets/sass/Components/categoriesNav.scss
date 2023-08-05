@@ -1,0 +1,49 @@
+.categories {
+  padding: 1.5rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  border: .3px;
+  border-style: solid;
+  border-color: #666666;
+  border-radius: 1rem;
+  width: 20rem;
+  gap: 1rem;
+
+  .colorItem {
+    color: #0466c8;
+  }
+
+  .items {
+    font-size: 1.15rem;
+    display: flex;
+    gap: .5rem;
+    padding-bottom: 5px;
+    cursor: default;
+    align-items: center;
+  }
+
+  .item {
+    padding: 5px;
+    display: flex;
+    gap: .5rem;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+    .textItem {
+      width: 100%;
+    }
+  }
+
+  .itemButton {
+    background-color: #0466c8;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    margin-top: 1.5rem;
+    padding: .9rem;
+    cursor: pointer;
+  }
+
+}

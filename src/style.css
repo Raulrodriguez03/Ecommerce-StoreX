@@ -1,4 +1,9 @@
-@import "assets/sass/nav.scss";
+/*Components Style*/
+@import "assets/sass/Components/nav.scss";
+@import "assets/sass/Components/categoriesNav.scss";
+
+/*Pages style*/
+@import "assets/sass/Page/Home.scss";
 
 * {
     padding: 0;

@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     gap: .4rem;
+    cursor: default;
   }
 
   .nav {
@@ -26,7 +27,7 @@
     }
 
     .page {
-
+      cursor: pointer;
     }
   }
 
@@ -37,7 +38,7 @@
     border: none;
     color: white;
     background-color: #001233;
-
+    cursor: pointer;
   }
 }
 
