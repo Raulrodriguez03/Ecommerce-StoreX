@@ -1,6 +1,7 @@
 /*Components Style*/
 @import "assets/sass/Components/nav.scss";
 @import "assets/sass/Components/categoriesNav.scss";
+@import "assets/sass/Components/PrimotionOne.scss";
 
 /*Pages style*/
 @import "assets/sass/Page/Home.scss";
