@@ -1,16 +1,14 @@
 export const PromotionOne = () => {
   return (
     <div className="promOne">
-      <text>
+      <text className="text">
         New arrival
-        <h1>2x1 in Basic Hoodies</h1>
+        <h1 className="promotion">2x1 in Basic Hoodies</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
-          architecto aut minus officiis quaerat. Accusamus animi aspernatur
-          assumenda, at ex facere, fugiat hic ipsa porro quae qui ratione
-          temporibus unde?
+          architecto aut minus officiis quaerat.
         </p>
-        <button>Buy Now</button>
+        <button className="btnPromotion">Buy Now</button>
       </text>
       <img
         className="imagenProm"
